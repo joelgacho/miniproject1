@@ -46,19 +46,56 @@
 		</div>
 	</nav>
 
+
 <!------------------------- Banner Section -------------------->
 	<section class="box">  
 		<video src="videos/bg-video.mp4" autoplay muted loop></video>
 		<h1>Choose the right <br> lawyer</h1> 
 		<h3>We advocate on behalf of our clients, working hard every day <br> to get the finest outcomes</h3>
 	</div>
-	<a class="btn btn-color text-white py-3 px-5 mt-2" href="contact.html">GET APPOINTMENT</a>
-</div>
-	</section>
+	<!-- <a class="btn btn-color text-white py-3 px-5 mt-2" href="contact.html">GET APPOINTMENT</a> -->
 
-<!---------------------------- form --------------------------->
+	<div class="container mt-5">
+       
+        <a class="btn btn-color text-white py-3 px-5" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">GET APPOINTMENT</a>
+		<div class="modal" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-dark">GET APPOINTMENT</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body text-dark">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label required"></label>
+                                <input type="text" class="form-control" placeholder="Enter Your Full Name">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label required"></label>
+                                <input type="number" class="form-control" placeholder="Enter Your Phone">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label required"></label>
+                                <input type="email" class="form-control" placeholder="Enter Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label required"></label>
+                                <textarea class="form-control" cols="40" rows="5" placeholder="Message"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+						<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    
+	
+</section>
 
 <!------------------------ Welcome Section ----------------------------------->
 

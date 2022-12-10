@@ -277,3 +277,43 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 /* end of footer */
 
+/* contact us */
+img {
+    width: 100%;
+ }
+ 
+ #contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+ } 
+
+ .navbar .nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ 
+ .btn {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 0;
+ }
+ 
+ .btn-brand {
+    background-color: #f75023;
+    color: #fff;
+ }
+ 
+ .btn-brand:hover {
+    background-color: #f75023;
+    color: #fff;
+ }
+
+ form .form-control {
+    border-radius: 0;
+ }
+ 
+
+ 
